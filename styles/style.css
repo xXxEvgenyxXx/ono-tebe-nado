@@ -1,1 +1,169 @@
-/* место для вашего кода */
+header,footer{
+    padding-left:24px;
+    padding-right:24px;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:92px;
+    font-size:20px;
+    gap:200px;
+    margin-bottom:96px;
+}
+nav ul{
+    list-style-type:circle;
+}
+nav{
+    margin-left:26px;
+    display:flex;
+    align-items:center;
+}
+ul{
+    display:flex;
+    gap:23px;
+    margin-right:18px;
+    margin-top:8.5px;
+}
+#li-first{
+    list-style-type:none;
+}
+#header-logo{
+    height:105px;
+    width:148px;
+}
+.jambotron{
+    position:relative;
+    background:url('../images/cover.jpg');
+    height:757px;
+    width:100vw;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    z-index:0;
+    margin-bottom:179px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.jambotron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.inner-jambotron {
+    position: relative;
+    z-index: 3;
+  }
+.title-wrapper{
+    display:flex;
+    flex-direction:column;
+    height:355px;
+    justify-content:center;
+    font-weight:bold;
+    font-size:100px;
+    letter-spacing:20px;
+    margin-top:165px;
+    margin-bottom:135px;
+}
+.tebe{
+    align-self:center;
+}
+.nado{
+    align-self:flex-end;
+}
+.subtitle-wrapper{
+    display:flex;
+    justify-self:flex-end;
+    font-size:22px;
+    align-items: center;
+}
+.subtitle-p{
+    word-spacing:10px;
+    margin-right:79px;
+}
+.subtitle-link-wrapper{
+    height:51px;
+    width:256px;
+    padding: 12 32 11 31;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid white;
+}
+.subtitle-link{
+    text-decoration:none;
+}
+.lots-wrapper{
+    margin-bottom:148px;
+}
+.lots-header{
+    font-size:40px;
+    margin-left:40px;
+    margin-bottom:27px;
+    font-weight:bold;
+}
+.cards-wrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+.lot-card{
+    position:relative;
+    width: 334px;
+    height:563px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-position-x: center;
+}
+/*.lot-card::before{
+    content: '';
+	width: 334px;
+    height:563px;
+	position: absolute;
+	background-color:rgba(0, 0, 0, .5);
+    padding: 51px 40px 48px 40px;
+}*/
+.inner-card{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-position-x: center;
+}
+.inner-card::before{
+    content: '';
+	width: 100%;
+    height:100%;
+	position: absolute;
+	background-color:rgba(0, 0, 0, .5);
+}
+.lot-card-header{
+    font-size:22px;
+}
+.lot-card-paragraph{
+    font-size:20px;
+}
+#about-producer{
+    background-image:url('../images/card-lot-01.jpg');
+}
+#about-the-book{
+    background-image:url('../images/card-lot-02.jpg')
+}
+#about-the-picture{
+    background-image:url('../images/card-lot-03.jpg')
+}
+.see-more{
+    margin-left:40px;
+    font-size:20px;
+}
