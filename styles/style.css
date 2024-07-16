@@ -100,7 +100,7 @@ ul{
     text-decoration:none;
 }
 .lots-wrapper{
-    margin-bottom:148px;
+    margin-bottom:146px;
 }
 .lots-header{
     font-size:40px;
@@ -149,10 +149,20 @@ ul{
 	background-color:rgba(0, 0, 0, .5);
 }
 .lot-card-header{
+    position:relative;
+    z-index:10;
     font-size:22px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:51px;
 }
 .lot-card-paragraph{
     font-size:20px;
+    position:relative;
+    z-index:10;
+    margin-bottom:48px;
+    margin-right:40px;
+    margin-left:40px;
 }
 #about-producer{
     background-image:url('../images/card-lot-01.jpg');
@@ -166,4 +176,53 @@ ul{
 .see-more{
     margin-left:40px;
     font-size:20px;
+}
+.about-auction{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:180px;
+}
+.content-wrapper{
+    width:693px;
+    margin-top:136px;
+}
+.content-wrapper p{
+    font-size:20px;
+}
+.logo-wrapper{
+    margin-top:35px;
+    background-color: black;
+    width:240px;
+    height:240px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo-in-round{
+    height:114px;
+}
+.content-header{
+    font-size:40px;
+    margin-bottom:100px;
+}
+#first-paragraph{
+    margin-bottom:24px;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.links-wrapper{
+    display:flex;
+    gap:48px;
+}
+.footer-icon{
+    width:48px;
+    height:48px;
 }
