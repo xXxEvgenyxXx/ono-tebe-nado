@@ -6,7 +6,7 @@ header{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    margin-top:92px;
+    margin-top:93px;
     font-size:20px;
     gap:200px;
     margin-bottom:96px;
@@ -15,18 +15,23 @@ nav ul{
     list-style-type:circle;
 }
 nav{
-    margin-left:26px;
+    margin-left:10px;
     display:flex;
-    align-items:center;
 }
 ul{
     display:flex;
-    gap:23px;
     margin-right:18px;
-    margin-top:8.5px;
+    margin-top:43px;
+    font-size:18.4px;
 }
 #li-first{
     list-style-type:none;
+    margin-right:30px;
+    padding-right:17px;
+}
+#li-second{
+    margin-right:25px;
+    padding-right:17px;
 }
 #header-logo{
     height:105px;
