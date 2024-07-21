@@ -4,19 +4,18 @@ header,footer{
 }
 header{
     display:flex;
-    justify-content:space-around;
-    align-items:center;
     margin-top:93px;
     font-size:20px;
-    gap:200px;
-    margin-bottom:96px;
+    margin-bottom:94.5px;
 }
 nav ul{
     list-style-type:circle;
+    margin-right:36px;
 }
 nav{
-    margin-left:10px;
+    margin-left:26px;
     display:flex;
+    margin-right:184px;
 }
 ul{
     display:flex;
@@ -24,14 +23,33 @@ ul{
     margin-top:43px;
     font-size:18.4px;
 }
+.header-info-wrapper{
+    font-size:18.4px;
+    margin-top:6px;
+}
+.header-info-links-wrapper{
+    margin-bottom:4px;
+}
+#header-info-wrapper-phone-num{
+    letter-spacing:-0.2px;
+}
+.header-info-text-wrapper p:first-child{
+    margin-bottom:3px;
+}
 #li-first{
     list-style-type:none;
-    margin-right:30px;
-    padding-right:17px;
+    margin-right: 30px;
 }
 #li-second{
-    margin-right:25px;
-    padding-right:17px;
+    margin-right:27px;
+    padding-left:2.5px;
+    letter-spacing:0.7px;
+    word-spacing:-3.8px;
+}
+#li-third{
+    margin-left:3px;
+    letter-spacing:0.7px;
+    word-spacing:-1.5px;
 }
 #header-logo{
     height:105px;
@@ -47,7 +65,7 @@ ul{
     flex-direction:column;
     color:white;
     z-index:0;
-    margin-bottom:179px;
+    margin-bottom:180.5px;
     padding-left:50px;
     padding-right:50px;
 }
@@ -69,43 +87,68 @@ ul{
     display:flex;
     flex-direction:column;
     height:355px;
-    justify-content:center;
     font-weight:bold;
     font-size:100px;
     letter-spacing:20px;
-    margin-top:165px;
-    margin-bottom:135px;
+    padding-top:4px;
+    margin-top:163px;
+    margin-bottom:137.5px;
+}
+.ono{
+    letter-spacing: 30px;
+    margin-bottom:12px;
+}
+.o{
+    margin-left:30px;
+}
+.e{
+    margin-left:20px;
 }
 .tebe{
-    align-self:center;
+    margin-left:285px;
+    letter-spacing: 30px;
 }
 .nado{
-    align-self:flex-end;
+    margin-left:584px;
+    margin-top:4px;
+    letter-spacing:30px;
+}
+.n{
+    margin-right:30px;
 }
 .subtitle-wrapper{
     display:flex;
     justify-self:flex-end;
-    font-size:22px;
     align-items: center;
+    font-size:21px;
+    margin-left:29px;
 }
 .subtitle-p{
-    word-spacing:10px;
-    margin-right:79px;
+    letter-spacing:1px;
+    word-spacing:17px;
+}
+.subtitle-p-2{
+    margin-left:20px;
+    word-spacing:21px;
 }
 .subtitle-link-wrapper{
     height:51px;
     width:256px;
     padding: 12 32 11 31;
     display:flex;
-    align-items:center;
-    justify-content:center;
+    padding-top:12px;
+    padding-left:32px;
+    letter-spacing:1px;
+    word-spacing:-2px;
     border:1px solid white;
+    margin-left:79px;
 }
 .subtitle-link{
     text-decoration:none;
 }
 .lots-wrapper{
-    margin-bottom:146px;
+    margin-bottom:147px;
+    margin-left:24.5px;
 }
 .lots-header{
     font-size:40px;
@@ -115,7 +158,6 @@ ul{
 }
 .cards-wrapper{
     display:flex;
-    justify-content: space-between;
     margin-bottom:30px;
 }
 .lot-card{
@@ -124,6 +166,7 @@ ul{
     height:563px;
     color:white;
     display:flex;
+    margin-right:24px;
     flex-direction:column;
     justify-content:space-between;
     background-position-x: center;
@@ -143,7 +186,6 @@ ul{
     color:white;
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
     background-position-x: center;
 }
 .inner-card::before{
@@ -159,18 +201,21 @@ ul{
     font-size:22px;
     margin-left:40px;
     margin-right:40px;
-    margin-top:51px;
+    margin-top:52px;
+    text-transform:uppercase;
 }
 .lot-card-paragraph{
-    font-size:20px;
-    position:relative;
+    font-size:20.9px;
     z-index:10;
     margin-bottom:48px;
-    margin-right:40px;
+    margin-right:30px;
     margin-left:40px;
 }
 #about-producer{
     background-image:url('../images/card-lot-01.jpg');
+}
+#about-producer .lot-card-header{
+    margin-bottom:243px;
 }
 #about-the-book{
     background-image:url('../images/card-lot-02.jpg')
@@ -178,21 +223,25 @@ ul{
 #about-the-picture{
     background-image:url('../images/card-lot-03.jpg')
 }
+#about-the-picture .lot-card-header{
+    margin-bottom:99px;
+}
 .see-more{
     margin-left:40px;
-    font-size:20px;
+    font-size:21px;
 }
 .about-auction{
     display:flex;
-    justify-content:space-between;
     margin-bottom:180px;
+    padding-left:70px;
 }
 .content-wrapper{
     width:693px;
     margin-top:136px;
+    margin-left:73px;
 }
 .content-wrapper p{
-    font-size:20px;
+    font-size:21.5px;
 }
 .logo-wrapper{
     margin-top:35px;
@@ -212,7 +261,7 @@ ul{
     margin-bottom:100px;
 }
 #first-paragraph{
-    margin-bottom:24px;
+    margin-bottom:21px;
 }
 footer{
     display:flex;
