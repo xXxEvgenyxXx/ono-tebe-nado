@@ -1,61 +1,61 @@
-header,footer{
+header,footer {
     padding-left:24px;
     padding-right:24px;
 }
-header{
+header {
     display:flex;
     margin-top:93px;
     font-size:20px;
     margin-bottom:94.5px;
 }
-nav ul{
+nav ul {
     list-style-type:circle;
     margin-right:36px;
 }
-nav{
+nav {
     margin-left:26px;
     display:flex;
     margin-right:184px;
 }
-ul{
+ul {
     display:flex;
     margin-right:18px;
     margin-top:43px;
     font-size:18.4px;
 }
-.header-info-wrapper{
+.header-info-wrapper {
     font-size:18.4px;
     margin-top:6px;
 }
-.header-info-links-wrapper{
+.header-info-links-wrapper {
     margin-bottom:4px;
 }
-#header-info-wrapper-phone-num{
+#header-info-wrapper-phone-num {
     letter-spacing:-0.2px;
 }
-.header-info-text-wrapper p:first-child{
+.header-info-text-wrapper p:first-child {
     margin-bottom:3px;
 }
-#li-first{
+#li-first {
     list-style-type:none;
     margin-right: 30px;
 }
-#li-second{
+#li-second {
     margin-right:27px;
     padding-left:2.5px;
     letter-spacing:0.7px;
     word-spacing:-3.8px;
 }
-#li-third{
+#li-third {
     margin-left:3px;
     letter-spacing:0.7px;
     word-spacing:-1.5px;
 }
-#header-logo{
+#header-logo {
     height:105px;
     width:148px;
 }
-.jambotron{
+.jambotron {
     position:relative;
     background:url('../images/cover.jpg');
     height:757px;
@@ -83,7 +83,7 @@ ul{
     position: relative;
     z-index: 3;
   }
-.title-wrapper{
+.title-wrapper {
     display:flex;
     flex-direction:column;
     height:355px;
@@ -94,44 +94,44 @@ ul{
     margin-top:163px;
     margin-bottom:137.5px;
 }
-.ono{
+.ono {
     letter-spacing: 30px;
     margin-bottom:12px;
 }
-.o{
+.o {
     margin-left:30px;
 }
-.e{
+.e {
     margin-left:20px;
 }
-.tebe{
+.tebe {
     margin-left:285px;
     letter-spacing: 30px;
 }
-.nado{
+.nado {
     margin-left:584px;
     margin-top:4px;
     letter-spacing:30px;
 }
-.n{
+.n {
     margin-right:30px;
 }
-.subtitle-wrapper{
+.subtitle-wrapper {
     display:flex;
     justify-self:flex-end;
     align-items: center;
     font-size:21px;
     margin-left:29px;
 }
-.subtitle-p{
+.subtitle-p {
     letter-spacing:1px;
     word-spacing:17px;
 }
-.subtitle-p-2{
+.subtitle-p-2 {
     margin-left:20px;
     word-spacing:21px;
 }
-.subtitle-link-wrapper{
+.subtitle-link-wrapper {
     height:51px;
     width:256px;
     padding: 12 32 11 31;
@@ -143,24 +143,24 @@ ul{
     border:1px solid white;
     margin-left:79px;
 }
-.subtitle-link{
+.subtitle-link {
     text-decoration:none;
 }
-.lots-wrapper{
+.lots-wrapper {
     margin-bottom:147px;
     margin-left:24.5px;
 }
-.lots-header{
+.lots-header {
     font-size:40px;
     margin-left:40px;
     margin-bottom:27px;
     font-weight:bold;
 }
-.cards-wrapper{
+.cards-wrapper {
     display:flex;
     margin-bottom:30px;
 }
-.lot-card{
+.lot-card {
     position:relative;
     width: 334px;
     height:563px;
@@ -169,7 +169,8 @@ ul{
     margin-right:24px;
     flex-direction:column;
     justify-content:space-between;
-    background-position-x: center;
+    background-position: center;
+    background-size:545px;
 }
 /*.lot-card::before{
     content: '';
@@ -179,71 +180,71 @@ ul{
 	background-color:rgba(0, 0, 0, .5);
     padding: 51px 40px 48px 40px;
 }*/
-.inner-card{
+.inner-card {
     position:absolute;
     width: 100%;
     height:100%;
     color:white;
     display:flex;
     flex-direction:column;
-    background-position-x: center;
 }
-.inner-card::before{
+.inner-card::before {
     content: '';
 	width: 100%;
     height:100%;
 	position: absolute;
 	background-color:rgba(0, 0, 0, .5);
 }
-.lot-card-header{
+.lot-card-header {
     position:relative;
     z-index:10;
-    font-size:22px;
+    font-size:21.7px;
+    line-height: 25.9px;
     margin-left:40px;
     margin-right:40px;
     margin-top:52px;
     text-transform:uppercase;
 }
-.lot-card-paragraph{
+.lot-card-paragraph {
     font-size:20.9px;
     z-index:10;
     margin-bottom:48px;
     margin-right:30px;
     margin-left:40px;
 }
-#about-producer{
+#about-producer {
     background-image:url('../images/card-lot-01.jpg');
 }
-#about-producer .lot-card-header{
+#about-producer .lot-card-header {
     margin-bottom:243px;
 }
-#about-the-book{
+#about-the-book {
     background-image:url('../images/card-lot-02.jpg')
 }
-#about-the-picture{
+#about-the-picture {
     background-image:url('../images/card-lot-03.jpg')
 }
-#about-the-picture .lot-card-header{
-    margin-bottom:99px;
+#about-the-picture .lot-card-header {
+    margin-bottom:96px;
 }
-.see-more{
+.see-more {
     margin-left:40px;
     font-size:21px;
 }
-.about-auction{
+.about-auction {
     display:flex;
     margin-bottom:180px;
     padding-left:70px;
 }
-.content-wrapper{
+.content-wrapper {
     width:693px;
     margin-top:136px;
     margin-left:73px;
 }
-.content-wrapper p{
+.content-wrapper p {
     font-size:21.5px;
 }
-.logo-wrapper{
+.logo-wrapper {
     margin-top:35px;
     background-color: black;
     width:240px;
@@ -253,30 +254,31 @@ ul{
     justify-content: center;
     align-items:center;
 }
-.logo-in-round{
+.logo-in-round {
     height:114px;
 }
-.content-header{
+.content-header {
     font-size:40px;
     margin-bottom:100px;
+    word-spacing:-5px;
 }
-#first-paragraph{
+#first-paragraph {
     margin-bottom:21px;
 }
-footer{
+footer {
     display:flex;
     justify-content: space-between;
 }
-.footer-nav{
+.footer-nav {
     display:flex;
     flex-direction: column;
     align-items:center;
 }
-.links-wrapper{
+.links-wrapper {
     display:flex;
     gap:48px;
 }
-.footer-icon{
+.footer-icon {
     width:48px;
     height:48px;
 }
