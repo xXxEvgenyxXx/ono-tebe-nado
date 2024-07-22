@@ -5,7 +5,7 @@ header,footer {
 header {
     font-size:20px;
     display:flex;
-    margin-top:93px;
+    margin-top:88.5px;
     margin-bottom:94.5px;
 }
 nav ul {
@@ -21,7 +21,7 @@ ul {
     font-size:18.4px;
     display:flex;
     margin-right:18px;
-    margin-top:43px;
+    margin-top:47px;
 }
 .header-info-wrapper {
     font-size:18.4px;
@@ -45,15 +45,18 @@ ul {
     padding-left:2.5px;
     letter-spacing:0.7px;
     word-spacing:-3.8px;
+    font-size:17.4px;
 }
 #li-third {
     margin-left:3px;
     letter-spacing:0.7px;
     word-spacing:-1.5px;
+    font-size:17.4px;
 }
 #header-logo {
     height:105px;
     width:148px;
+    margin-top:5px;
 }
 .jambotron {
     position:relative;
@@ -128,8 +131,8 @@ ul {
     word-spacing:17px;
 }
 .subtitle-p-2 {
-    margin-left:20px;
-    word-spacing:21px;
+    margin-left:-4px;
+    word-spacing:20px;
 }
 .subtitle-link-wrapper {
     height:51px;
