@@ -6,7 +6,7 @@ header {
     font-size:20px;
     display:flex;
     margin-top:88.5px;
-    margin-bottom:94.5px;
+    margin-bottom:89.5px;
 }
 nav ul {
     list-style-type:circle;
@@ -62,7 +62,7 @@ ul {
     position:relative;
     background:url('../images/cover.jpg');
     height:757px;
-    width:100vw;
+    width:1100px;
     background-size: cover;
     display:flex;
     flex-direction:column;
