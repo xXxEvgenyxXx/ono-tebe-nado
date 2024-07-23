@@ -27,6 +27,12 @@ ul {
     font-size:18.4px;
     margin-top:6px;
 }
+.header__link-inactive {
+    text-decoration: none;
+}
+.header__link-active {
+    text-underline-offset: 4px;
+}
 .header-info-links-wrapper {
     margin-bottom:4px;
 }
@@ -79,7 +85,7 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.6);
     z-index: 2;
 }
 .inner-jambotron {
