@@ -15,17 +15,17 @@ nav ul {
 nav {
     margin-left:26px;
     display:flex;
-    margin-right:184px;
 }
 ul {
     font-size:18.4px;
     display:flex;
-    margin-right:18px;
     margin-top:47px;
+    white-space: nowrap;
 }
 .header-info-wrapper {
     font-size:18.4px;
-    margin-top:6px;
+    margin-top:10px;
+    margin-left:184px;
 }
 .header__link-inactive {
     text-decoration: none;
@@ -38,6 +38,7 @@ ul {
 }
 #header-info-wrapper-phone-num {
     letter-spacing:-0.2px;
+    text-underline-offset: 4px;
 }
 .header-info-text-wrapper p:first-child {
     margin-bottom:3px;
@@ -102,28 +103,10 @@ ul {
     padding-top:4px;
     margin-top:163px;
     margin-bottom:137.5px;
-}
-.ono {
     letter-spacing: 30px;
-    margin-bottom:12px;
 }
-.o {
+.letter-spacing-extended {
     margin-left:30px;
-}
-.e {
-    margin-left:20px;
-}
-.tebe {
-    margin-left:285px;
-    letter-spacing: 30px;
-}
-.nado {
-    margin-left:584px;
-    margin-top:4px;
-    letter-spacing:30px;
-}
-.n {
-    margin-right:30px;
 }
 .subtitle-wrapper {
     font-size:21px;
