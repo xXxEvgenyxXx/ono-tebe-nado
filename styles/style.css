@@ -19,7 +19,7 @@ nav {
     margin-left:26px;
     display:flex;
 }
-ul {
+.header__navbar ul {
     font-size:18.4px;
     display:flex;
     margin-top:47px;
@@ -72,29 +72,20 @@ ul {
 .jambotron {
     position:relative;
     background:url('../images/cover.jpg');
-    height:757px;
+    min-height:757px;
     width:1100px;
     background-size: cover;
+    background-position: center;
     display:flex;
     flex-direction:column;
     color:white;
     z-index:0;
     margin-bottom:180.5px;
-    padding-left:50px;
-    padding-right:50px;
-}
-.jambotron:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,.6);
-    z-index: 2;
 }
 .inner-jambotron {
     position: relative;
+    padding-left:50px;
+    padding-right:50px;
     z-index: 3;
   }
 .title-wrapper {
@@ -103,14 +94,26 @@ ul {
     display:flex;
     flex-direction:column;
     height:355px;
-    letter-spacing:20px;
-    padding-top:4px;
+    padding-top:1px;
     margin-top:163px;
     margin-bottom:137.5px;
+    width:100%;
     letter-spacing: 30px;
 }
+.no-letter-spacing {
+    letter-spacing: 0em;
+}
 .letter-spacing-extended {
-    margin-left:30px; /*С letter-spacing вообще не работает, поэтому так пока*/
+    letter-spacing: 60px;
+    margin-left:30px;
+}
+.aligned-text-center {
+    text-align: center;
+    margin-top:9px;
+}
+.aligned-text-right {
+    text-align:right;
+    margin-top:3.5px;
 }
 .subtitle-wrapper {
     font-size:21px;
@@ -151,48 +154,40 @@ ul {
     font-size:40px;
     font-weight:bold;
     margin-left:40px;
-    margin-bottom:27px;
+    margin-bottom:26px;
 }
-.cards-wrapper {
+.lots__cards-list {
     display:flex;
     margin-bottom:30px;
 }
-.lot-card {
+.lots__card-list-item {
     position:relative;
     width: 334px;
-    height:563px;
+    min-height:563px;
     color:white;
     display:flex;
     margin-right:24px;
     flex-direction:column;
     justify-content:space-between;
     background-position: center;
+    background-size:cover;
     background-size:545px;
+    white-space:wrap; /*без этого переноса не будет, игнорьте эту строку*/
 }
-/*.lot-card::before{
-    content: '';
-	width: 334px;
-    height:563px;
-	position: absolute;
-	background-color:rgba(0, 0, 0, .5);
-    padding: 51px 40px 48px 40px;
-}*/
-.inner-card {
+.card-wrapper {
+    display:grid;
+    color:white;
+    height:100%;
+    grid-template-rows: 1fr
+}
+.overlay {
     position:absolute;
     width: 100%;
     height:100%;
-    color:white;
-    display:flex;
-    flex-direction:column;
+    background-color:rgba(0, 0, 0, .6);
+    z-index:1;
 }
-.inner-card::before {
-    content: '';
-	width: 100%;
-    height:100%;
-	position: absolute;
-	background-color:rgba(0, 0, 0, .5);
-}
-.lot-card-header {
+.card__title {
     font-size:21.7px;
     position:relative;
     z-index:10;
@@ -202,18 +197,16 @@ ul {
     margin-top:52px;
     text-transform:uppercase;
 }
-.lot-card-paragraph {
+.card__text {
     font-size:20.9px;
     z-index:10;
     margin-bottom:48px;
     margin-right:30px;
     margin-left:40px;
+    justify-self:flex-end;
 }
 #about-producer {
     background-image:url('../images/card-lot-01.jpg');
-}
-#about-producer .lot-card-header {
-    margin-bottom:243px;
 }
 #about-the-book {
     background-image:url('../images/card-lot-02.jpg')
@@ -221,20 +214,21 @@ ul {
 #about-the-picture {
     background-image:url('../images/card-lot-03.jpg')
 }
-#about-the-picture .lot-card-header {
+#about-the-picture .card__title {
     margin-bottom:96px;
 }
 .see-more {
     font-size:21px;
     margin-left:40px;
 }
-.about-auction {
+.about {
     display:flex;
     margin-bottom:180px;
     padding-left:70px;
 }
 .content-wrapper {
-    width:693px;
+    width:100%;
+    max-width:693px;
     margin-top:136px;
     margin-left:73px;
 }
@@ -257,7 +251,6 @@ ul {
 .content-header {
     font-size:40px;
     margin-bottom:100px;
-    word-spacing:-5px;
 }
 #first-paragraph {
     margin-bottom:21px;
@@ -266,10 +259,11 @@ footer {
     display:flex;
     justify-content: space-between;
 }
-.footer-nav {
+.footer-nav ul {
     display:flex;
     flex-direction: column;
     align-items:center;
+    list-style: none;
 }
 .links-wrapper {
     display:flex;

@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="header__navbar">
         <ul>
           <li id="li-first"><a class="header__link" href="#">главная</a></li>
           <li id="li-second"><a class="header__link-active"  href="#">посмотреть лоты</a></li>
@@ -32,11 +32,11 @@
     </header>
     <main>
       <section class="jambotron">
-        <div class="inner-jambotron">
+        <div class="inner-jambotron overlay">
           <h1 class="title-wrapper">
-            <span>ОН<span class="letter-spacing-extended">О</span></span>
-            <span>ТЕБ<span class="letter-spacing-extended">Е</span></span>
-            <span><span class="letter-spacing-extended">H</span>АДO</span>
+            <span class="aligned-text">ОН<span class="letter-spacing-extended">О</span></span>
+            <span class="aligned-text-center">ТЕБ<span class="letter-spacing-extended">Е</span></span>
+            <span class="aligned-text-right"><span class="letter-spacing-extended">H</span>АД<span class="no-letter-spacing">O</span></span>
           </h1>
         <div class="subtitle-wrapper">
           <p>АУКЦИОН ВЕЩЕЙ, <span>В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</span></p>
@@ -48,29 +48,29 @@
       </section>
       <section class="lots-wrapper">
         <h2 class="lots-header">ЛОТЫ</h2>
-        <div class="cards-wrapper">
-          <div id="about-producer" class="lot-card">
-            <div class="inner-card">
-              <h2 class="lot-card-header"><a  href="#">Фильм режиссёра, который бросил киношколу</a></h2>
-              <p class="lot-card-paragraph">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+        <ul class="lots__cards-list">
+          <li id="about-producer" class="lots__card-list-item">
+            <div class="overlay card-wrapper">
+              <h3 class="card__title"><a  href="#">Фильм режиссёра, который бросил киношколу</a></h3>
+              <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </div>
-          </div>
-          <div id="about-the-book" class="lot-card">
-            <div class="inner-card">
-              <h2 class="lot-card-header"><a  href="#">Книга, где описан один скучный день из жизни рекламного агента</a></h2>
-              <p class="lot-card-paragraph">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+          </li>
+          <li id="about-the-book" class="lots__card-list-item">
+            <div class="overlay card-wrapper">
+              <h2 class="card__title"><a  href="#">Книга, где описан один скучный день из жизни рекламного агента</a></h2>
+              <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </div>
-          </div>
-          <div id="about-the-picture" class="lot-card">
-            <div class="inner-card">
-              <h2 class="lot-card-header"><a  href="#">Картина, которую повторит даже 5-летний сын маминой подруги</a></h2>
-              <p class="lot-card-paragraph">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из<br> революционных работ Кандинского?</p>
+          </li>
+          <li id="about-the-picture" class="lots__card-list-item">
+            <div class="overlay card-wrapper">
+              <h2 class="card__title"><a  href="#">Картина, которую повторит даже 5-летний сын маминой подруги</a></h2>
+              <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из<br> революционных работ Кандинского?</p>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
         <a class="see-more" href="#">посмотреть больше</a>
       </section>
-      <section class="about-auction">
+      <section class="about">
         <div class="logo-wrapper">
           <img alt="." class="logo-in-round" src="./images/logo-white.svg">
         </div>
@@ -90,9 +90,11 @@
         <p>265, Амстердам</p>
       </address>
       <nav class="footer-nav">
-        <a href="#" class="header__link">главная</a>
-        <a class="header__link-active" href="#">посмотреть лоты</a>
-        <a class="header__link-active" href="#">об аукционе</a>
+        <ul>
+          <li><a href="#" class="header__link">главная</a></li>
+          <li><a class="header__link-active" href="#">посмотреть лоты</a></li>
+          <li><a class="header__link-active" href="#">об аукционе</a></li>
+        </ul>
       </nav>
       <ul class="links-wrapper">
         <li><a href="#"><img alt="." class="footer-icon" src="images/yt.svg"></a></li>
