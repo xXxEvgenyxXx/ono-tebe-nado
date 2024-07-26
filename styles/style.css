@@ -165,7 +165,6 @@ nav {
     justify-content:space-between;
     background-position: center;
     background-size:cover;
-    background-size:545px;
     white-space:wrap; /*без этого переноса не будет, игнорьте эту строку*/
 }
 .card-wrapper {
@@ -210,8 +209,9 @@ nav {
     background-image:url('../images/card-lot-03.jpg')
 }
 .see-more {
-    font-size:21px;
+    font-size:20px;
     margin-left:40px;
+    text-underline-offset: 5.5px;
 }
 .about {
     display:flex;
