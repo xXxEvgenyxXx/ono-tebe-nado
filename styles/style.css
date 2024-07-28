@@ -10,6 +10,7 @@ header {
     display:flex;
     margin-top:88.5px;
     margin-bottom:90.5px;
+    align-items: center;
 }
 nav ul {
     list-style-type:circle;
@@ -20,16 +21,9 @@ nav {
     display:flex;
 }
 .header__navbar ul {
-    font-size:18.4px;
+    font-size:18px;
     display:flex;
-    margin-top:47px;
     white-space: nowrap;
-}
-.header-info-wrapper {
-    font-size:18.4px;
-    margin-top:10px;
-    margin-left:185.3px;
-    font-style:normal;
 }
 .header__link-active,.footer__menu-link_active {
     text-decoration: none;
@@ -38,34 +32,29 @@ nav {
     text-underline-offset: 4px;
 }
 .info-links-wrapper {
-    margin-bottom:5px;
     gap:2px;
     text-underline-offset: 4px;
-}
-.header-info-text-wrapper p:first-child {
-    margin-bottom:3px;
 }
 #li-first {
     list-style-type:none;
     margin-right: 30px;
 }
 #li-second {
-    margin-right:30px;
+    margin-right:25px;
     padding-left:1.6px;
     letter-spacing:0.7px;
     word-spacing:-3.8px;
-    font-size:17.4px;
 }
 #li-third {
     margin-left:3px;
     letter-spacing:0.7px;
     word-spacing:-1.5px;
-    font-size:17.4px;
 }
 #header-logo {
     height:105px;
     width:148px;
     margin-top:4px;
+    margin-right:185.3px;
 }
 .jambotron {
     position:relative;
@@ -196,7 +185,7 @@ nav {
     z-index:1;
 }
 .card__title {
-    font-size:21.7px;
+    font-size:22px;
     position:relative;
     z-index:10;
     line-height: 25.9px;
@@ -207,14 +196,14 @@ nav {
     text-decoration: underline;
 }
 .card__text {
-    font-size:20.9px;
+    font-size:20px;
+    line-height:24px;
     position: relative;
     z-index:10;
     margin-bottom:48px;
     margin-right:40px;
     margin-left:40px;
     justify-self:flex-end;
-    word-spacing:-2.5px;
 }
 #about-producer {
     background-image:url('../images/card-lot-01.jpg');
@@ -245,7 +234,6 @@ nav {
 }
 .content-wrapper p {
     font-size:20px;
-    word-spacing:0px;
     margin-bottom:25px;
     width:693px;
 }
@@ -276,9 +264,11 @@ footer {
     padding-left:50px;
     margin-bottom:88px;
 }
-.info-wrapper {
-    font-size:18.2px;
+.address__text {
+    font-size:18px;
     text-underline-offset: 4px;
+    line-height: 24.3px;
+    font-style:normal;
 }
 .footer-nav ul {
     display:flex;
