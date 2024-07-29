@@ -143,10 +143,9 @@ nav {
     margin-bottom:26px;
 }
 .lots__cards-list {
-    display:flex;
-    margin-bottom:30px;
-    justify-content: space-between;
-    flex-wrap:wrap;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:1fr
 }
 .lots__card-list-item {
     position:relative;
@@ -154,11 +153,11 @@ nav {
     min-height:563px;
     color:white;
     display:flex;
-    margin-right:24px;
     flex-direction:column;
     justify-content:space-between;
     background-position: center;
     background-size:cover;
+    margin-bottom:30px;
     white-space:wrap; /*без этого переноса не будет, игнорьте эту строку*/
 }
 .card-wrapper {
@@ -224,7 +223,7 @@ nav {
 }
 .about {
     display:flex;
-    margin-bottom:160px;
+    margin-bottom:155px;
     padding-left:70px;
 }
 .content-wrapper {
@@ -234,6 +233,7 @@ nav {
 }
 .content-wrapper p {
     font-size:20px;
+    line-height:24px;
     margin-bottom:25px;
     width:693px;
 }
