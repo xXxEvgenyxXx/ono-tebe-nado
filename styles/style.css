@@ -168,16 +168,14 @@ nav {
 .card-link {
     position:relative;
     min-height:100%;
+    text-decoration: none;
+    min-height:100%;
 }
 .card {
     min-height:100%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.card-link {
-    text-decoration: none;
-    min-height:100%;
 }
 .overlay {
     position:absolute;
