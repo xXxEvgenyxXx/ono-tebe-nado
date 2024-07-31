@@ -150,6 +150,7 @@ nav {
 .lots__card-list-item {
     position:relative;
     width: 334px;
+    min-height:563px;
     color:white;
     display:flex;
     flex-direction:column;
@@ -166,7 +167,7 @@ nav {
 }
 .card-link {
     position:relative;
-    min-height:563px;
+    min-height:100%;
 }
 .card {
     min-height:100%;
